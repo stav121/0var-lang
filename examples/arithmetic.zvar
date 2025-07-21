@@ -1,0 +1,10 @@
+/// Arithmetic operations demonstration
+main {
+    int v$0 = 15;
+    int v$1 = 3;
+
+    print(v$0 + v$1); // Output: 18
+    print(v$0 - v$1); // Output: 12
+    print(v$0 * v$1); // Output: 45
+    print(v$0 / v$1); // Output: 5
+}

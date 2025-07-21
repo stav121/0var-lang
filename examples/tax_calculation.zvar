@@ -1,0 +1,16 @@
+main {
+    /// Tax rate percentage
+    int c$0 = 10;
+    /// Base price
+    int v$0 = 100;
+    /// Discount amount
+    int v$1 = 5;
+
+    // Calculate final price: (base - discount) + tax
+    v$0 = v$0 - v$1;           // Apply discount: 95
+    int v$2 = v$0 * c$0 / 100; // Calculate tax: 9
+    v$0 = v$0 + v$2;           // Add tax: 104
+
+    describe(v$0, "Final price after discount and tax");
+    print(v$0); // Output: 104
+}

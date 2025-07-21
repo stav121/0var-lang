@@ -1,0 +1,24 @@
+/// Calculates the area of a rectangle
+fn f$0(v$0 int, v$1 int) -> int {
+    describe(f$0, "Multiplies width by height to get area");
+    ret v$0 * v$1;
+}
+
+/// Calculates perimeter of a rectangle
+fn f$1(v$0 int, v$1 int) -> int {
+    ret 2 * (v$0 + v$1);
+}
+
+main {
+    /// Width of rectangle
+    int v$0 = 10;
+    /// Height of rectangle
+    int v$1 = 5;
+
+    int v$2 = f$0(v$0, v$1);
+    describe(v$2, "Total area in square units");
+    print(v$2); // Output: 50
+
+    int v$3 = f$1(v$0, v$1);
+    print(v$3); // Output: 30
+}

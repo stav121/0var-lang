@@ -1,0 +1,13 @@
+/// Main program demonstrating basic arithmetic with 0var extension
+main {
+    /// First number
+    int v$0 = 10;
+    /// Second number
+    int v$1 = 5;
+
+    // Test subtraction
+    v$0 = v$0 - v$1;
+
+    // Print the result (should be 5)
+    print(v$0);
+}

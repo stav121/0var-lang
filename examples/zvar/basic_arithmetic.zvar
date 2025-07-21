@@ -1,0 +1,13 @@
+/// Main program demonstrating basic arithmetic
+main {
+    /// First number
+    int v$0 = 1;
+    /// Second number
+    int v$1 = 2;
+
+    // Add them together
+    v$0 = v$0 + v$1;
+
+    // Print the result (should be 3)
+    print(v$0);
+}

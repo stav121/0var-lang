@@ -1,0 +1,11 @@
+/// Function that multiplies two numbers
+fn f$0(v$0 int, v$1 int) -> int {
+    describe(f$0, "Multiplies two integers together");
+    ret v$0 * v$1;
+}
+
+/// Main program using 0var extension
+main {
+    int v$2 = f$0(6, 7);
+    print(v$2);  // Should print 42
+}

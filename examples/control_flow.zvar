@@ -1,0 +1,12 @@
+main {
+    bool v$0 = true;
+    int v$1 = 10;
+    
+    if (v$1 > 5 && v$0) {
+        print(v$1);
+    } else {
+        print(0);
+    }
+    
+    bool v$2 = !v$0 || v$1 == 10;
+}

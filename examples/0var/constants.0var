@@ -1,0 +1,13 @@
+main {
+    /// A constant value
+    int c$0 = 10;
+
+    /// A variable that we'll modify
+    int v$0 = 5;
+
+    // Use the constant in calculation
+    v$0 = v$0 * c$0;
+
+    describe(v$0, "Result of multiplication");
+    print(v$0);  // Should print 50
+}

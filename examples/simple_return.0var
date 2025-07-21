@@ -1,0 +1,7 @@
+fn f$0(v$0 int) -> int {
+    ret v$0;
+}
+
+main {
+    print(f$0(42));
+}
